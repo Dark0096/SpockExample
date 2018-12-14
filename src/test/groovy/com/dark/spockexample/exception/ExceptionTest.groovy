@@ -1,6 +1,5 @@
 package com.dark.spockexample.exception
 
-import com.dark.spockexample.exception.Calculator
 import spock.lang.Specification
 
 import java.security.InvalidParameterException
