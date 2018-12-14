@@ -30,6 +30,11 @@ ext {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	compile('org.codehaus.groovy:groovy-all:2.4.3')
+	compile('com.google.guava:guava:20.0')
+
+	// for redisson
+	compile("org.redisson:redisson:3.9.0")
+
 	compileOnly('org.projectlombok:lombok')
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
